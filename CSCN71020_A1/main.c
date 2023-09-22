@@ -19,10 +19,12 @@ void main(void) {
 
 	switch (inputNum)
 	{
-	case 1:
-		add();
-	case 2:
-		subtract();
+		case 1:
+			add();
+			break;
+		case 2:
+			subtract();
+			break;
 	}
 
 }
